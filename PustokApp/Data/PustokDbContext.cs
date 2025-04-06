@@ -15,6 +15,7 @@ namespace PustokApp.Data
         public DbSet<BookTag> BookTags { get; set; }
         public PustokDbContext(DbContextOptions<PustokDbContext> options):base(options)
         {
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

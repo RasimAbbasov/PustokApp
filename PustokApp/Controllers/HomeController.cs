@@ -29,7 +29,7 @@ namespace PustokApp.Controllers
                 .Include(x => x.BookImages.Where(b => b.Status != null))
                 .ToList()
             };
-            return View();
+            return View(homeVm);
         }
     }
 }

@@ -16,7 +16,7 @@
                             <div class="hero-partial-image @(slider.Order==1?"image-right":"image-left")">
                                 <img src="~/assets/image/bg-images/@slider.Image" alt="">
                             </div>
-                            <div class="row @(slider.Order==1?"row g-0":" align-items-center justify-content-start justify-content-md-end")">
+                            <div class=" @(slider.Order==1?"row g-0":"row align-items-center justify-content-start justify-content-md-end")">
                                 <div class="col-xl-6 col-md-6 col-sm-7">
                                     <div class="home-content-inner @(slider.Order==1?"content-left-side":"content-right-side") text-start">
                                         <h1>
@@ -41,51 +41,21 @@
     <section class="mb--30">
         <div class="container">
             <div class="row">
+           @*  @foreach(var item in Model.Features)
+            {
                 <div class="col-xl-3 col-md-6 mt--30">
                     <div class="feature-box h-100">
                         <div class="icon">
                             <i class="fas fa-shipping-fast"></i>
                         </div>
                         <div class="text">
-                            <h5>Free Shipping Item</h5>
-                            <p> Orders over $500</p>
+                            <h5>@item.Name</h5>
+                            <p> @item.Description</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 mt--30">
-                    <div class="feature-box h-100">
-                        <div class="icon">
-                            <i class="fas fa-redo-alt"></i>
-                        </div>
-                        <div class="text">
-                            <h5>Money Back Guarantee</h5>
-                            <p>100% money back</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 mt--30">
-                    <div class="feature-box h-100">
-                        <div class="icon">
-                            <i class="fas fa-piggy-bank"></i>
-                        </div>
-                        <div class="text">
-                            <h5>Cash On Delivery</h5>
-                            <p>Lorem ipsum dolor amet</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 mt--30">
-                    <div class="feature-box h-100">
-                        <div class="icon">
-                            <i class="fas fa-life-ring"></i>
-                        </div>
-                        <div class="text">
-                            <h5>Help & Support</h5>
-                            <p>Call us : + 0123.4567.89</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            } *@
+        </div>
         </div>
     </section>
     <!--=================================
@@ -97,12 +67,12 @@
             <div class="row space-db--30">
                 <div class="col-lg-6 col-md-6 mb--30">
                     <a href="#" class="promo-image promo-overlay">
-                        <img src="image/bg-images/promo-banner-with-text.jpg" alt="">
+                        <img src="~/assets/image/bg-images/promo-banner-with-text.jpg" alt="">
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6 mb--30">
                     <a href="#" class="promo-image promo-overlay">
-                        <img src="image/bg-images/promo-banner-with-text-2.jpg" alt="">
+                        <img src="~/assets/image/bg-images/promo-banner-with-text-2.jpg" alt="">
                     </a>
                 </div>
             </div>
@@ -153,7 +123,7 @@
                                 {"breakpoint":480, "settings": {"slidesToShow": 1} },
                                 {"breakpoint":320, "settings": {"slidesToShow": 1} }
                             ]'>
-                        @Html.Partial("_Books", Model.FeaturedBooks)
+                        @Html.Partial("_BooksPartial", Model.FeaturedBooks)
                         </div>
                     </div>
                     <div class="tab-pane" id="new" role="tabpanel" aria-labelledby="new-tab">
@@ -170,7 +140,7 @@
                                             {"breakpoint":480, "settings": {"slidesToShow": 1} },
                                             {"breakpoint":320, "settings": {"slidesToShow": 1} }
                                         ]'>
-                       @Html.Partial("_Books", Model.NewBooks)
+                       @Html.Partial("_BooksPartial", Model.NewBooks)
                         </div>
                     </div>
                     <div class="tab-pane" id="discount" role="tabpanel" aria-labelledby="discount-tab">
@@ -187,7 +157,7 @@
                                             {"breakpoint":480, "settings": {"slidesToShow": 1} },
                                             {"breakpoint":320, "settings": {"slidesToShow": 1} }
                                         ]'>
-                        @Html.Partial("_Books", Model.DiscountBooks)
+                        @Html.Partial("_BooksPartial", Model.DiscountBooks)
                         </div>
                     </div>
                 </div>
@@ -228,10 +198,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-2.jpg" alt="">
+                                <img src="~/assets/image/products/product-2.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-1.jpg" alt="">
+                                        <img src="~/assets/image/products/product-1.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -271,10 +241,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-1.jpg" alt="">
+                                <img src="~/assets/image/products/product-1.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-1.jpg" alt="">
+                                        <img src="~/assets/image/products/product-1.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -314,10 +284,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-3.jpg" alt="">
+                                <img src="~/assets/image/products/product-3.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-2.jpg" alt="">
+                                        <img src="~/assets/image/products/product-2.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -359,10 +329,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-5.jpg" alt="">
+                                <img src="~/assets/image/products/product-5.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-4.jpg" alt="">
+                                        <img src="~/assets/image/products/product-4.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -402,10 +372,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-6.jpg" alt="">
+                                <img src="~/assets/image/products/product-6.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-4.jpg" alt="">
+                                        <img src="~/assets/image/products/product-4.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -447,10 +417,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-8.jpg" alt="">
+                                <img src="~/assets/image/products/product-8.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-7.jpg" alt="">
+                                        <img src="~/assets/image/products/product-7.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -494,10 +464,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-13.jpg" alt="">
+                                <img src="~/assets/image/products/product-13.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-11.jpg" alt="">
+                                        <img src="~/assets/image/products/product-11.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -543,7 +513,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6">
                         <div class="author-image">
-                            <img src="image/others/best-seller-author.jpg" alt="">
+                            <img src="~/assets/image/others/best-seller-author.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6">
@@ -564,7 +534,7 @@
                             <div class="single-slide">
                                 <div class="product-card card-style-list">
                                     <div class="card-image">
-                                        <img src="image/products/product-6.jpg" alt="">
+                                        <img src="~/assets/image/products/product-6.jpg" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
@@ -589,7 +559,7 @@
                             <div class="single-slide">
                                 <div class="product-card card-style-list">
                                     <div class="card-image">
-                                        <img src="image/products/product-1.jpg" alt="">
+                                        <img src="~/assets/image/products/product-1.jpg" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
@@ -615,7 +585,7 @@
                             <div class="single-slide">
                                 <div class="product-card card-style-list">
                                     <div class="card-image">
-                                        <img src="image/products/product-2.jpg" alt="">
+                                        <img src="~/assets/image/products/product-2.jpg" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
@@ -641,7 +611,7 @@
                             <div class="single-slide">
                                 <div class="product-card card-style-list">
                                     <div class="card-image">
-                                        <img src="image/products/product-3.jpg" alt="">
+                                        <img src="~/assets/image/products/product-3.jpg" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
@@ -669,7 +639,7 @@
                             <div class="single-slide">
                                 <div class="product-card card-style-list">
                                     <div class="card-image">
-                                        <img src="image/products/product-5.jpg" alt="">
+                                        <img src="~/assets/image/products/product-5.jpg" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
@@ -694,7 +664,7 @@
                             <div class="single-slide">
                                 <div class="product-card card-style-list">
                                     <div class="card-image">
-                                        <img src="image/products/product-4.jpg" alt="">
+                                        <img src="~/assets/image/products/product-4.jpg" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
@@ -748,7 +718,7 @@
                 <div class="single-slide">
                     <div class="product-card card-style-list">
                         <div class="card-image">
-                            <img src="image/products/product-2.jpg" alt="">
+                            <img src="~/assets/image/products/product-2.jpg" alt="">
                         </div>
                         <div class="product-card--body">
                             <div class="product-header">
@@ -768,7 +738,7 @@
                 <div class="single-slide">
                     <div class="product-card card-style-list">
                         <div class="card-image">
-                            <img src="image/products/product-1.jpg" alt="">
+                            <img src="~/assets/image/products/product-1.jpg" alt="">
                         </div>
                         <div class="product-card--body">
                             <div class="product-header">
@@ -790,7 +760,7 @@
                 <div class="single-slide">
                     <div class="product-card card-style-list">
                         <div class="card-image">
-                            <img src="image/products/product-3.jpg" alt="">
+                            <img src="~/assets/image/products/product-3.jpg" alt="">
                         </div>
                         <div class="product-card--body">
                             <div class="product-header">
@@ -810,7 +780,7 @@
                 <div class="single-slide">
                     <div class="product-card card-style-list">
                         <div class="card-image">
-                            <img src="image/products/product-4.jpg" alt="">
+                            <img src="~/assets/image/products/product-4.jpg" alt="">
                         </div>
                         <div class="product-card--body">
                             <div class="product-header">
@@ -832,7 +802,7 @@
                 <div class="single-slide">
                     <div class="product-card card-style-list">
                         <div class="card-image">
-                            <img src="image/products/product-5.jpg" alt="">
+                            <img src="~/assets/image/products/product-5.jpg" alt="">
                         </div>
                         <div class="product-card--body">
                             <div class="product-header">
@@ -854,7 +824,7 @@
                 <div class="single-slide">
                     <div class="product-card card-style-list">
                         <div class="card-image">
-                            <img src="image/products/product-6.jpg" alt="">
+                            <img src="~/assets/image/products/product-6.jpg" alt="">
                         </div>
                         <div class="product-card--body">
                             <div class="product-header">
@@ -884,7 +854,7 @@
                     <div class="promo-wrapper promo-type-one">
                         <a href="#" class="promo-image  promo-overlay bg-image"
                            data-bg="image/bg-images/promo-banner-mid.jpg">
-                            <!-- <img src="image/bg-images/promo-banner-mid.jpg" alt=""> -->
+                            <!-- <img src="~/assets/image/bg-images/promo-banner-mid.jpg" alt=""> -->
                         </a>
                         <div class="promo-text">
                             <div class="promo-text-inner">
@@ -899,7 +869,7 @@
                     <div class="promo-wrapper promo-type-two ">
                         <a href="#" class="promo-image promo-overlay bg-image"
                            data-bg="image/bg-images/promo-banner-small.jpg">
-                            <!-- <img src="image/bg-images/promo-banner-small.jpg" alt=""> -->
+                            <!-- <img src="~/assets/image/bg-images/promo-banner-small.jpg" alt=""> -->
                         </a>
                         <div class="promo-text">
                             <div class="promo-text-inner">
@@ -950,10 +920,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-2.jpg" alt="">
+                                <img src="~/assets/image/products/product-2.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-1.jpg" alt="">
+                                        <img src="~/assets/image/products/product-1.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -992,10 +962,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-2.jpg" alt="">
+                                <img src="~/assets/image/products/product-2.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-1.jpg" alt="">
+                                        <img src="~/assets/image/products/product-1.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -1032,10 +1002,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-3.jpg" alt="">
+                                <img src="~/assets/image/products/product-3.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-2.jpg" alt="">
+                                        <img src="~/assets/image/products/product-2.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -1074,10 +1044,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-5.jpg" alt="">
+                                <img src="~/assets/image/products/product-5.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-4.jpg" alt="">
+                                        <img src="~/assets/image/products/product-4.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -1114,10 +1084,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-6.jpg" alt="">
+                                <img src="~/assets/image/products/product-6.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-4.jpg" alt="">
+                                        <img src="~/assets/image/products/product-4.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -1154,10 +1124,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-8.jpg" alt="">
+                                <img src="~/assets/image/products/product-8.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-7.jpg" alt="">
+                                        <img src="~/assets/image/products/product-7.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -1198,10 +1168,10 @@
                         </div>
                         <div class="product-card--body">
                             <div class="card-image">
-                                <img src="image/products/product-13.jpg" alt="">
+                                <img src="~/assets/image/products/product-13.jpg" alt="">
                                 <div class="hover-contents">
                                     <a href="product-details.html" class="hover-image">
-                                        <img src="image/products/product-11.jpg" alt="">
+                                        <img src="~/assets/image/products/product-11.jpg" alt="">
                                     </a>
                                     <div class="hover-btns">
                                         <a href="cart.html" class="single-btn">
@@ -1276,7 +1246,7 @@
                 <div class="single-slide">
                     <div class="blog-card">
                         <div class="image">
-                            <img src="image/others/blog-grid-1.jpg" alt="">
+                            <img src="~/assets/image/others/blog-grid-1.jpg" alt="">
                         </div>
                         <div class="content">
                             <div class="content-header">
@@ -1309,7 +1279,7 @@
                 <div class="single-slide">
                     <div class="blog-card">
                         <div class="image">
-                            <img src="image/others/blog-grid-2.jpg" alt="">
+                            <img src="~/assets/image/others/blog-grid-2.jpg" alt="">
                         </div>
                         <div class="content">
                             <div class="content-header">
@@ -1342,7 +1312,7 @@
                 <div class="single-slide">
                     <div class="blog-card">
                         <div class="image">
-                            <img src="image/others/blog-grid-3.jpg" alt="">
+                            <img src="~/assets/image/others/blog-grid-3.jpg" alt="">
                         </div>
                         <div class="content">
                             <div class="content-header">
