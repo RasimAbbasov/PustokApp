@@ -8,5 +8,6 @@
         public string ButtonLink { get; set; }
         public string ButtonText { get; set; }
         public int Order { get; set; }
+        public IFormFile File { get; set; }
     }
 }

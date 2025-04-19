@@ -40,16 +40,57 @@ namespace PustokApp.Controllers
         {
             if (id == null)
                 return NotFound();
+
             var existBook = pustokDbContext.Books
-                .Include(x => x.Author)
-                .Include(x => x.Genre)
-                .Include(x => x.BookImages)
-                .Include(x => x.BookTags)
-                .ThenInclude(x => x.Tag)
-                .FirstOrDefault(x => x.Id == id);
+               .Include(x => x.Author)
+               .Include(x => x.Genre)
+               .Include(x => x.BookImages)
+               .Include(x => x.BookTags)
+               .ThenInclude(x => x.Tag)
+               .FirstOrDefault(x => x.Id == id);
+
+            //var existBook = pustokDbContext.Books
+            //    .Where(x => x.Id == id)
+            //    .Select(existBook => new BookModalVm
+            //    {
+            //        Name = existBook.Name,
+            //        Description = existBook.Description,
+            //        ProductCode = existBook.ProductCode,
+            //        InStock = existBook.InStock,
+            //        IsFeatured = existBook.IsFeatured,
+            //        IsNew = existBook.IsNew,
+            //        Price = existBook.Price,
+            //        DiscountPercentage = existBook.DiscountPercentage,
+            //        Rate = existBook.Rate,
+            //        AuthorName = existBook.Author.Name,
+            //        GenreName = existBook.Genre.Name,
+            //        BookImages = existBook.BookImages.Select(x => x.ImgName).ToList(),
+            //        BookTags = existBook.BookTags.Select(x => x.Tag.Name).ToList()
+            //    }).FirstOrDefault();
             if (existBook == null)
                 return NotFound();
-            return PartialView("_ModalBookPartial",existBook);
+
+            //BookModalVm bookModalVm = new()
+            //{
+            //    Name= existBook.Name,
+            //    Description= existBook.Description,
+            //    ProductCode=existBook.ProductCode,
+            //    InStock=existBook.InStock,
+            //    IsFeatured=existBook.IsFeatured,
+            //    IsNew=existBook.IsNew,
+            //    Price=existBook.Price,
+            //    DiscountPercentage=existBook.DiscountPercentage,
+            //    Rate=existBook.Rate,
+            //    AuthorName=existBook.Author.Name,
+            //    GenreName=existBook.Genre.Name,
+            //    BookImages=existBook.BookImages.Select(x => x.ImgName).ToList(),
+            //    BookTags=existBook.BookTags.Select(x => x.Tag.Name).ToList()
+
+            //};
+
+            //return Json(bookModalVm);
+
+            return PartialView("_ModalBookPartial", existBook);
         }
     }
 }
