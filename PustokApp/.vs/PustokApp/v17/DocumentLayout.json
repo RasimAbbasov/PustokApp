@@ -3,68 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\genre\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\genre\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\areas\\manage\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\areas\\manage\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\genre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\genre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\viewmodel\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\viewmodel\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\genre\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\genre\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\genre\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\genre\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\areas\\manage\\views\\shared\\_validationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B3DB175A-0281-4F77-A23B-A3715E46B3C6}|PustokApp.csproj|solutionrelative:areas\\manage\\views\\shared\\_validationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|c:\\users\\rasim\\source\\repos\\pustokapp\\pustokapp\\partialview.pustok\\areas\\manage\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C799AB69-4FC4-4F53-88ED-C550FD9AB838}|PartialView.pustok\\PustokApp.csproj|solutionrelative:partialview.pustok\\areas\\manage\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,210 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Models\\Slider.cs",
-              "RelativeDocumentMoniker": "Models\\Slider.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Models\\Slider.cs",
-              "RelativeToolTip": "Models\\Slider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:32:13.636Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Slider\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Slider\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T08:47:18.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T08:31:22.158Z",
-              "EditorCaption": ""
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Services\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "PartialView.pustok\\Services\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Services\\ServiceRegistration.cs",
+              "RelativeToolTip": "PartialView.pustok\\Services\\ServiceRegistration.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:26:52.214Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T08:22:13.629Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\appsettings.json",
+              "RelativeDocumentMoniker": "PartialView.pustok\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\appsettings.json",
+              "RelativeToolTip": "PartialView.pustok\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T14:26:33.685Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Areas\\Manage\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA6wBgAAAAjAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Program.cs",
+              "RelativeDocumentMoniker": "PartialView.pustok\\Program.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Program.cs",
+              "RelativeToolTip": "PartialView.pustok\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T08:16:07.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaginationVm.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "RelativeToolTip": "Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T07:20:12.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAABABAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T06:56:49.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACAAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T16:10:39.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Genre\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Genre\\Index.cshtml",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAowGIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T16:02:02.607Z",
+              "WhenOpened": "2025-07-21T14:26:30.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Genre\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Genre\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PartialView.pustok\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PartialView.pustok\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEMCAAAAAAAAAIBJwFMCAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T16:02:02.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Models\\Genre.cs",
-              "RelativeToolTip": "Models\\Genre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:04:49.788Z"
+              "WhenOpened": "2025-07-06T08:30:22.194Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GenreController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\GenreController.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\GenreController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Controllers\\GenreController.cs",
-              "RelativeToolTip": "Areas\\Manage\\Controllers\\GenreController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Areas\\Manage\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "PartialView.pustok\\Areas\\Manage\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Areas\\Manage\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "PartialView.pustok\\Areas\\Manage\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwCEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T08:09:26.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Areas\\Manage\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "PartialView.pustok\\Areas\\Manage\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Areas\\Manage\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "PartialView.pustok\\Areas\\Manage\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwDIAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:02:24.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T08:08:20.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ValidationPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Shared\\_ValidationPartial.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Shared\\_ValidationPartial.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Shared\\_ValidationPartial.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Shared\\_ValidationPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "PartialView.pustok\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\PartialView.pustok\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "PartialView.pustok\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T16:14:18.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PustokDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Data\\PustokDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\PustokDbContext.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Data\\PustokDbContext.cs",
-              "RelativeToolTip": "Data\\PustokDbContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwCQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:37:22.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Genre\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Detail.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Genre\\Detail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T06:59:19.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Genre\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\PustokApp\\PustokApp\\Areas\\Manage\\Views\\Genre\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Genre\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T16:45:23.967Z"
+              "WhenOpened": "2025-06-22T07:24:37.822Z"
             }
           ]
         }

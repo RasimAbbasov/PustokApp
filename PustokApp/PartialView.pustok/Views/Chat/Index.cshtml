@@ -1,0 +1,134 @@
+﻿@{
+    var users = (List<AppUser>)ViewBag.Users;
+}
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="row p-1">
+                <div class="col-1">User</div>
+                <div class="col-5"><input type="text" id="userInput" /></div>
+            </div>
+            <div class="row p-1">
+                <div class="col-1">Message</div>
+                <div class="col-5"><input type="text" class="w-100" id="messageInput" /></div>
+            </div>
+            <div class="row p-1">
+                <div class="col-6 text-end">
+                    <input type="button" id="sendButton" value="Send Message" />
+                </div>
+            </div>
+            <div class="row p-1">
+                <div class="col-6">
+                    <hr />
+                </div>
+            </div>
+            <div class="row p-1">
+                <div class="col-6">
+                    <ul id="messagesList"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <ul class="list-group list-group-flush">
+                @foreach (var u in users)
+                {
+                    <li id="@u.Id" class="list-group-item">
+                        <span style=" display:inline-block;
+            width:15px;
+            height:15px;
+            border-radius:50%;" class="@(u.ConnectionId!= null?"online":"offline")"> </span> @u.FullName
+                        <a class="btn btn-primary send-message-btn" data-userid="@u.Id" data-username="@u.UserName">SEND MESSAGE</a>
+
+                    </li>
+
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.7/signalr.min.js" integrity="sha512-7SRCYIJtR6F8ocwW7UxW6wGKqbSyqREDbfCORCbGLatU0iugBLwyOXpzhkPyHIFdBO0K2VCu57fvP2Twgx1o2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+        connection.start();
+        console.log(connection);
+
+        document.getElementById("sendButton").addEventListener("click", function (event) {
+            var user = document.getElementById("userInput").value;
+            var message = document.getElementById("messageInput").value;
+            connection.invoke("SendMessage", user, message)
+            event.preventDefault();
+        });
+        connection.on("ReceiveMessage", function (a, b) {
+            var li = document.createElement("li");
+            document.getElementById("messagesList").appendChild(li);
+            // We can assign user-supplied strings to an element's textContent because it
+            // is not interpreted as markup. If you're assigning in any other way, you
+            // should be aware of possible script injection concerns.
+            li.textContent = `${a} : ${b}`;
+        })
+
+        connection.on("UserConnect",function(id){
+            document.getElementById(id).firstElementChild.classList.add("online")
+            document.getElementById(id).firstElementChild.classList.remove("offline")
+        })
+
+        connection.on("UserDisConnect", function (id) {
+            document.getElementById(id).firstElementChild.classList.add("offline")
+            document.getElementById(id).firstElementChild.classList.remove("online")
+        })
+
+        connection.on("SendMessage", function (id) {
+            alert("send")
+        })
+
+        connection.on("OrderAccepted", function (id) {
+
+            toastr["success"]("Order accept succesfully!")
+
+            toastr.options = {
+                "closeButton": false,
+                "debug": false, 
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+
+        })
+
+        connection.on("OrderRejected", function (id) {
+
+            toastr["warning"]("Order Rejected!")
+
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+
+        })
+
+    </script>
+}
